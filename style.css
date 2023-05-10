@@ -40,3 +40,34 @@ header input {
     font-family: inherit;
     padding: 0.5rem 1rem;
 }
+.fav-container {
+    background-color: rgb(243, 225, 255);
+    padding: 0.25rem 1rem;
+    text-align: center;
+}
+
+.fav-meals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-meals li {
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+    width: 75px;
+}
+
+.fav-meals li .clear {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    font-size: 1.2rem;
+}
