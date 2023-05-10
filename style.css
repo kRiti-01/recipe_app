@@ -33,3 +33,10 @@ header {
     justify-content: center;
     padding: 1rem;
 }
+header input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 0.5rem 1rem;
+}
