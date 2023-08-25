@@ -6,7 +6,7 @@
 
 body {
     background: #ece9e6;
-    background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+    background: -webkit-linear-gradient(to right, #ffffff, #ffffe0);
     background: linear-gradient(to right, #ffffff, #ece9e6);
     display: flex;
     align-items: center;
